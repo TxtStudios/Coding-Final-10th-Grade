@@ -23,8 +23,12 @@ using UnityEngine.UI;
 
 public class GameController : MonoBehaviour {
 
-    public GameObject itemBlockContainer;
+    public GameObject itemBlockContainer, playerAudioSource;
     public Text coinText;
+
+    public int coins;
+
+    public AudioClip oneUp, brickSmash, coin, fireball, flagpole, pipeTravel, powerUp, powerUpAppear;
 
     private void Start()
     {
@@ -42,9 +46,60 @@ public class GameController : MonoBehaviour {
             newblock.notifyForId();
         }
 
+        Debug.Log("Setting UI Text to Defaults");
         coinText = coinText.GetComponent<Text>();
         coinText.text = "Coins: " + 0;
+        coins = 0;
 
     }
+
+    public void addCoin(int amt)
+    {
+        coins += amt;
+        coinText.GetComponent<Text>().text = "Coins: " + coins;
+    }
+
+    public void playSound(string sound)
+    {
+        AudioSource playerAudio = playerAudioSource.GetComponent<AudioSource>();
+
+        switch(sound)
+        {
+            case "oneUp":
+                playerAudio.clip = oneUp;
+                playerAudio.Play();
+                break;
+            case "brickSmash":
+                playerAudio.clip = brickSmash;
+                playerAudio.Play();
+                break;
+            case "coin":
+                playerAudio.clip = coin;
+                playerAudio.Play();
+                break;
+            case "fireball":
+                playerAudio.clip = fireball;
+                playerAudio.Play();
+                break;
+            case "flagpole":
+                playerAudio.clip = flagpole;
+                playerAudio.Play();
+                break;
+            case "pipeTravel":
+                playerAudio.clip = pipeTravel;
+                playerAudio.Play();
+                break;
+            case "powerUp":
+                playerAudio.clip = powerUp;
+                playerAudio.Play();
+                break;
+            case "powerUpAppear":
+                playerAudio.clip = powerUpAppear;
+                playerAudio.Play();
+                break;
+        }
+    }
+
+
     
 }
