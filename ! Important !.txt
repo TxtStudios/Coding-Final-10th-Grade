@@ -1,0 +1,24 @@
+-------------------------------------------------------------------------------------------------
+       dP          dP                                     dP                          dP       
+       88          88                                     88                          88       
+       88 .d8888b. 88d888b. 88d888b. 88d888b. dP    dP    88        .d8888b. .d8888b. 88  .dP  
+       88 88'  `88 88'  `88 88'  `88 88'  `88 88    88    88        88ooood8 88ooood8 88888"   
+88.  .d8P 88.  .88 88    88 88    88 88    88 88.  .88    88        88.  ... 88.  ... 88  `8b. 
+ `Y8888'  `88888P' dP    dP dP    dP dP    dP `8888P88    88888888P `88888P' `88888P' dP   `YP 
+                                                   .88                                         
+                                               d8888P                                         
+-------------------------------------------------------------------------------------------------
+
+This software was programmed entirely by Johnny Leek as a final project for his 10th grade Coding
+class. All source files were strictly written by Johnny, unless stated otherwise below. The things
+that Johnny did not create were:
+	- The Game Engine (Unity 5.6.03 Personal Edition)
+	- The Textures (https://www.spriters-resource.com/nes/supermariobros/ , but upscaled by him)
+	- The scripts "ReCalcCubeTexture.cs" and "TextureAtlas.cs"
+		- These were utility scripts to make the textures appear correct on the bricks
+	- The First Person Character is a Unity Standard Asset, though it was modified by Johnny in
+		order to feel more "Mario" like.
+
+
+This software is not to be used or copied by anybody in any way, without explicit permission from
+Johnny, but the source code can be used as a reference tool to learn from.
