@@ -13,7 +13,8 @@ This software was programmed entirely by Johnny Leek as a final project for his 
 class. All source files were strictly written by Johnny, unless stated otherwise below. The things
 that Johnny did not create were:
 	- The Game Engine (Unity 5.6.03 Personal Edition)
-	- The Textures (https://www.spriters-resource.com/nes/supermariobros/ , but upscaled by him)
+	- The Textures (https://www.spriters-resource.com/nes/supermariobros/ , but they were upscaled 
+		and sorted into Texture Atlas' by him)
 	- The scripts "ReCalcCubeTexture.cs" and "TextureAtlas.cs"
 		- These were utility scripts to make the textures appear correct on the bricks
 	- The First Person Character is a Unity Standard Asset, though it was modified by Johnny in
